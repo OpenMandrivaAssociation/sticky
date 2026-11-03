@@ -41,7 +41,7 @@ find %{buildroot} -type f -name "sticky.py" -exec sed -i 's/<i>//g; s/<\/i>//g' 
 %files -f %{name}.lang
 %doc README.md
 %{_bindir}/sticky
-%{_libdir}/sticky
+/usr/lib/sticky
 %{_datadir}/sticky
 %{_datadir}/applications/sticky.desktop
 %{_datadir}/icons/hicolor/scalable/status/*
