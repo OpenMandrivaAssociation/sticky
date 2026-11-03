@@ -10,6 +10,7 @@ Group:		Graphical desktop/Other
 
 BuildSystem:    meson
 
+BuildRequires:	gettext
 BuildRequires:  meson
 BuildRequires:  python
 
