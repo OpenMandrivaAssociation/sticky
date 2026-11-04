@@ -1,6 +1,6 @@
 Name:		sticky
 Version:	1.33
-Release:	1
+Release:	2
 Summary:	Sticky Notes app
 License:        GPL-3+
 URL:            https://github.com/linuxmint/sticky
@@ -14,10 +14,10 @@ BuildRequires:	gettext
 BuildRequires:  meson
 BuildRequires:  python
 
-Requires:       lib64glib-gir2.0
-Requires:       lib64gtk-gir3.0
-Requires:	lib64xapp-gir3.2
-Requires:	lib64gspell-gir1
+Requires:       typelib(GLib)
+Requires:       typelib(Gtk)
+Requires:	typelib(XApp)
+Requires:	typelib(Gspell)
 Requires:       python
 Requires:       python-gi
 Requires:       python-xapp
