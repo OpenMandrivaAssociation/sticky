@@ -1,6 +1,6 @@
 Name:		sticky
-Version:	1.33
-Release:	3
+Version:	1.34
+Release:	1
 Summary:	Sticky Notes app
 License:        GPL-3+
 URL:            https://github.com/linuxmint/sticky
