@@ -1,5 +1,5 @@
 Name:		sticky
-Version:	1.34
+Version:	1.35
 Release:	1
 Summary:	Sticky Notes app
 License:        GPL-3+
